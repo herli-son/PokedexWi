@@ -1,0 +1,15 @@
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Dlls\Controles.dll.config
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Dlls\Controles.dll
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Dlls\Controles.pdb
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Controles\obj\Debug\Controles.csproj.AssemblyReference.cache
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Controles\obj\Debug\Controles.Properties.Resources.resources
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Controles\obj\Debug\Controles.csproj.GenerateResource.cache
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Controles\obj\Debug\Controles.csproj.CoreCompileInputs.cache
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Controles\obj\Debug\Controles.dll
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Controles\obj\Debug\Controles.pdb
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Controles\obj\Debug\Card\Card.g.cs
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Controles\obj\Debug\Controles_MarkupCompile.cache
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Controles\obj\Debug\Controles_MarkupCompile.lref
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Controles\obj\Debug\Card\Card.baml
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Controles\obj\Debug\Controles.g.resources
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Controles\obj\Debug\Controles.csproj.CopyComplete

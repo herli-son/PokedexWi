@@ -1,0 +1,10 @@
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Bases\obj\Debug\Bases.csproj.AssemblyReference.cache
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Bases\obj\Debug\Bases.Properties.Resources.resources
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Bases\obj\Debug\Bases.csproj.GenerateResource.cache
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Bases\obj\Debug\Bases.csproj.CoreCompileInputs.cache
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Dlls\Bases.dll.config
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Dlls\Bases.dll
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Dlls\Bases.pdb
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Bases\obj\Debug\Bases.csproj.CopyComplete
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Bases\obj\Debug\Bases.dll
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Bases\obj\Debug\Bases.pdb

@@ -1,0 +1,11 @@
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Dlls\Servicos.dll.config
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Dlls\Servicos.dll
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Dlls\Servicos.pdb
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Servicos\obj\Debug\Servicos.csproj.AssemblyReference.cache
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Servicos\obj\Debug\Servicos.Properties.Resources.resources
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Servicos\obj\Debug\Servicos.csproj.GenerateResource.cache
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Servicos\obj\Debug\Servicos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Servicos\obj\Debug\Servicos.csproj.CoreCompileInputs.cache
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Servicos\obj\Debug\Servicos.csproj.CopyComplete
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Servicos\obj\Debug\Servicos.dll
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Servicos\obj\Debug\Servicos.pdb

@@ -1,0 +1,15 @@
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Dlls\Apresentacao.dll.config
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Dlls\Apresentacao.dll
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Dlls\Apresentacao.pdb
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Apresentacao\obj\Debug\Apresentacao.csproj.AssemblyReference.cache
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Apresentacao\obj\Debug\Apresentacao.Properties.Resources.resources
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Apresentacao\obj\Debug\Apresentacao.csproj.GenerateResource.cache
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Apresentacao\obj\Debug\Apresentacao.csproj.CoreCompileInputs.cache
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Apresentacao\obj\Debug\Apresentacao.csproj.CopyComplete
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Apresentacao\obj\Debug\Apresentacao.dll
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Apresentacao\obj\Debug\View\PokemonView.g.cs
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Apresentacao\obj\Debug\Apresentacao_MarkupCompile.cache
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Apresentacao\obj\Debug\Apresentacao_MarkupCompile.lref
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Apresentacao\obj\Debug\View\PokemonView.baml
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Apresentacao\obj\Debug\Apresentacao.g.resources
