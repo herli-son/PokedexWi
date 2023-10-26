@@ -66,6 +66,7 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CardDePokemon\CardPokemonModel.cs" />
     <Compile Include="CardDePokemon\teste.cs" />
     <Compile Include="Models\HabilidadeModel.cs" />
     <Compile Include="Models\PokemonModel.cs" />
