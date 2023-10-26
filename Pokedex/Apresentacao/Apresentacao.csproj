@@ -66,9 +66,8 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CardDePokemon\CardDePokemonView.xaml.cs">
-      <DependentUpon>CardDePokemonView.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="CardDePokemon\CardDePokemonViewModel.cs" />
+    <Compile Include="CardDePokemon\CardPokemonModel.cs" />
     <Compile Include="CardDePokemon\teste.cs" />
     <Compile Include="Models\HabilidadeModel.cs" />
     <Compile Include="Models\PokemonModel.cs" />
@@ -104,10 +103,6 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Page Include="CardDePokemon\CardDePokemonView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="View\PokemonView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
