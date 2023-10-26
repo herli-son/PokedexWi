@@ -12,22 +12,17 @@ using System.Windows.Media.Imaging;
 
 namespace Apresentacao.CardDePokemon
 {
-    public class CardDePokemonViewModel : ItemViewModel<Object>
+    public class CardDePokemonViewModel : ItemViewModel<CardPokemonModel>
     {
         public PokemonService PokemonService { get; set; }
+        public BitmapImage BitMapImage { get => ObterImagem(int.Parse(Item.Numero)); }
+        public string titulo { get => Item.Nome + " - " + Item.Numero; }
 
         public CardDePokemonViewModel()
         {
             PokemonService = new PokemonService();
-            Item = PokemonService.ObterDadosPokemon<Object>();
-            NotifyPropertyChanged(nameof(Item));
         }
-        public void MontarCard(int numero, string nome)
-        {
-            Item = new CardModel { Imagem = ObterImagem(numero), Nome = nome };
-            NotifyPropertyChanged("Item");
-        }
-        private BitmapImage ObterImagem(int numero)
+        public BitmapImage ObterImagem(int numero)
         {
             string caminho = numero.ToString();
             if (numero < 100) caminho = "0" + caminho;

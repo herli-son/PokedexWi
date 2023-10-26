@@ -23,6 +23,8 @@ namespace Pokedex
         public MainWindow()
         {
             InitializeComponent();
+            var l = listaPokemon.ViewModel.Item;
+            cardViewPokemon.ViewModel.Item = new Apresentacao.CardDePokemon.CardPokemonModel {Nome = l.Nome, Numero = l.Numero, TipoPrimario = l.TipoPrimario, TipoSecundario = l.TipoSecundario, Historia = l.Descricao };
         }
     }
 }

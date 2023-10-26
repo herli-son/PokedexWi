@@ -17,14 +17,13 @@
         </Grid.ColumnDefinitions>
         <StackPanel Width="500" Height="auto" Orientation="Vertical" Grid.ColumnSpan="2" Grid.RowSpan="2">
             <Border CornerRadius="10" BorderBrush="gray" BorderThickness="10">
-                <TextBlock FontSize="20" Padding="10,0,0,0" Foreground="White" Background="gray" Margin="-2">Teste - 498</TextBlock>
-                <!--<Label FontSize="20" Padding="10,0,0,0" Foreground="White" Background="gray" BorderBrush="gray" UseLayoutRounding="True" Cursor="Arrow" IsEnabled="False">Teste - 498</Label>-->
+                <TextBlock FontSize="20" Padding="10,0,0,0" Foreground="White" Background="gray" Margin="-2" Text="{Binding titulo}" />
             </Border>
             <Border CornerRadius="10" BorderBrush="#FFE6E6E6" BorderThickness="5" Margin="0,20,0,0">
                 <StackPanel Background="#FFE6E6E6" Margin="-2">
-                    <Image x:Name="PokemonImage" Height="450" Margin="20,20,20,20" Grid.Row="0" Stretch="Fill">
+                    <Image x:Name="PokemonImage" Height="450" Margin="20,20,20,20" Grid.Row="0" Stretch="Fill" Source="{Binding BitMapImage}" />
 
-                    </Image>
+
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition/>
@@ -36,7 +35,7 @@
                         <Button Width="200" Background="Gray" Height="30" FontSize="18" HorizontalAlignment="Right" Foreground="White" Grid.Column="1" Margin="0,0,19,0">Tipo Secundário</Button>
                     </Grid>
                     <Label FontSize="24" Margin="19,0,19,0" Padding="0">História:</Label>
-                    <Label Margin="19,0,19,0" Padding="0">bla bla bla</Label>
+                    <TextBlock Height="auto" Margin="19,0,19,20" Padding="0" Text="{Binding Item.Historia}" TextWrapping="Wrap" />
                 </StackPanel>
             </Border>
 

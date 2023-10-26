@@ -4,17 +4,17 @@
 library
 C#
 .cs
-C:\Users\2022101202010236\Source\Repos\PokedexWi\Pokedex\Apresentacao\obj\Debug\
+C:\Users\2020101202010138\Source\Repos\PokedexWi\Pokedex\Apresentacao\obj\Debug\
 Apresentacao
 none
 false
 DEBUG;TRACE
 
-11451766407
+2414823682
 
-11253848427
-16-2095493484
-View\PokemonView.xaml;
+13506367528
+16-161365915
+CardDePokemon\CardDePokemonView.xaml;View\PokemonView.xaml;
 
-False
+True
 

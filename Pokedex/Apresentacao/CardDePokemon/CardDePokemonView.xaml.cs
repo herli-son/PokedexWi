@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Apresentacao.CardDePokemon;
+using Apresentacao.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,10 +22,12 @@ namespace Apresentacao
     /// </summary>
     public partial class CardDePokemonView : UserControl
     {
+
+        public CardDePokemonViewModel ViewModel { get => DataContext as CardDePokemonViewModel; }
         public CardDePokemonView()
         {
             InitializeComponent();
-            PokemonImage.Source = new BitmapImage(new Uri("https://th.bing.com/th/id/OIP.GfvcTMJ4-_xEdijPRP65WAHaFj?pid=ImgDet&rs=1"));
+            DataContext = new CardDePokemonViewModel();
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
