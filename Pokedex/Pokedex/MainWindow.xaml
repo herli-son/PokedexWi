@@ -5,10 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Pokedex"
         xmlns:apresentacao="clr-namespace:Apresentacao.View;assembly=Apresentacao"
+        xmlns:componente="clr-namespace:Apresentacao;assembly=Apresentacao"
         xmlns:controles="clr-namespace:Controles;assembly=Controles"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <ScrollViewer>
-        <apresentacao:PokemonView/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <apresentacao:PokemonView Margin="0,0,20,0"/>
+            <componente:CardDePokemonView/>
+        </StackPanel>
+        
     </ScrollViewer>
+    
 </Window>
