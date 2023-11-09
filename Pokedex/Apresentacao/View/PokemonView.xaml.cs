@@ -1,5 +1,6 @@
 ﻿using Apresentacao.ViewModel;
 using Controles;
+using Pokedex.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,6 +24,7 @@ namespace Apresentacao.View
     public partial class PokemonView : UserControl
     {
         public PokemonViewModel ViewModel { get => DataContext as PokemonViewModel; }
+        public Action<PokemonModel> CardAlterado { get; set; }
         public PokemonView()
         {
             InitializeComponent();
@@ -32,8 +34,16 @@ namespace Apresentacao.View
             {
                 var card = new Card();
                 card.ViewModel.MontarCard(int.Parse(item.Numero), item.Nome);
+                card.MouseDoubleClick += Card_MouseDoubleClick;
                 Poke.Children.Add(card);
             }
+        }
+
+        private void Card_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            var card = (Card)sender;
+            var pk = ViewModel.Itens.FirstOrDefault(x => int.Parse(x.Numero) == card.ViewModel.Item.Numero);
+            CardAlterado?.Invoke(pk);
         }
     }
 }

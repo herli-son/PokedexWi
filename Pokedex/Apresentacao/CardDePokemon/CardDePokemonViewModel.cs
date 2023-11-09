@@ -15,7 +15,7 @@ namespace Apresentacao.CardDePokemon
     public class CardDePokemonViewModel : ItemViewModel<CardPokemonModel>
     {
         public PokemonService PokemonService { get; set; }
-        public BitmapImage BitMapImage { get => ObterImagem(int.Parse(Item.Numero)); }
+        public BitmapImage BitMapImage { get => ObterImagem(int.Parse(Item.Numero??"0")); }
         public string titulo { get => Item.Nome + " - " + Item.Numero; }
 
         public CardDePokemonViewModel()

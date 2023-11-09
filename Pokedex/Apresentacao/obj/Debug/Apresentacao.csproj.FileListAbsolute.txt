@@ -30,3 +30,5 @@ C:\Users\2020101202010138\Source\Repos\PokedexWi\Pokedex\Apresentacao\obj\Debug\
 C:\Users\2020101202010138\Source\Repos\PokedexWi\Pokedex\Apresentacao\obj\Debug\Apresentacao.csproj.CopyComplete
 C:\Users\2020101202010138\Source\Repos\PokedexWi\Pokedex\Apresentacao\obj\Debug\Apresentacao.dll
 C:\Users\2020101202010138\Source\Repos\PokedexWi\Pokedex\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Apresentacao\obj\Debug\CardDePokemon\CardDePokemonView.g.cs
+C:\Projetos\Seminfo2023\PokedexWi\Pokedex\Apresentacao\obj\Debug\CardDePokemon\CardDePokemonView.baml

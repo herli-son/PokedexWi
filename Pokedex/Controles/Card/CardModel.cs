@@ -9,6 +9,7 @@ namespace Controles
 {
     public class CardModel
     {
+        public int Numero {  get; set; }
         public BitmapImage Imagem {  get; set; }
         public string Nome { get; set; }
     }

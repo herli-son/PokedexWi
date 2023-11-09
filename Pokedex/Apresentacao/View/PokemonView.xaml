@@ -6,8 +6,8 @@
              xmlns:local="clr-namespace:Apresentacao.View"
              xmlns:controles="clr-namespace:Controles;assembly=Controles"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-        <StackPanel x:Name="Poke" Orientation="Horizontal"/>
-    </Grid>
+             d:DesignHeight="450" d:DesignWidth="800" MaxHeight="450" VerticalAlignment="Top" HorizontalAlignment="Center">
+    <ScrollViewer>
+        <StackPanel x:Name="Poke" Orientation="Vertical"/>
+    </ScrollViewer>
 </UserControl>

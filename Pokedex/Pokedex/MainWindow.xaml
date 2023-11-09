@@ -9,12 +9,11 @@
         xmlns:controles="clr-namespace:Controles;assembly=Controles"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <ScrollViewer>
+    <StackPanel>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <apresentacao:PokemonView Margin="0,0,20,0" x:Name="listaPokemon"/>
             <componente:CardDePokemonView x:Name="cardViewPokemon"/>
         </StackPanel>
-        
-    </ScrollViewer>
+    </StackPanel>
     
 </Window>

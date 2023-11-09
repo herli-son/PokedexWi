@@ -13,7 +13,7 @@ namespace Controles
 
         public void MontarCard(int numero, string nome)
         {
-            Item = new CardModel { Imagem = ObterImagem(numero), Nome = nome };
+            Item = new CardModel { Imagem = ObterImagem(numero), Nome = nome, Numero = numero };
             NotifyPropertyChanged("Item");
         }
         private BitmapImage ObterImagem(int numero)
